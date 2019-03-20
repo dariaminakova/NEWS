@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>NEWS</title>
+</head>
+<body>
+    <h3>Please choose your country and category</h3>
+<div class="row">
+        <div class="input-field col s6 m6">
+            <select class="country browser-default">
+                <option value="" disabled selected>Choose your country</option>
+                <option value="ua">Ukraine</option>
+                <option value="us">United States</option>
+                <option value="ve">Venezuela</option>
+            </select>
+        </div>
+        <div class="input-field col s6 m6">
+            <select class="category browser-default">
+                <option value="" disabled selected>Choose your category</option>
+                <option value="general">General</option>
+                <option value="business">Business</option>
+                <option value="technology">Technology</option>
+                <option value="science">Science</option>
+                <option value="sports">Sports</option>
+            </select>
+        </div>
+        <div class="input-field col s12 m12">
+            <input type="text" class="search"/>
+        </div>
+    </div> 
+    <div class="contentBox"></div>
+    <script type="text/javascript" src="./js/newsUi.js"></script>
+    <script type="text/javascript" src="./js/newsService.js"></script>
+    <script type="text/javascript" src="./js/app.js"></script>
+</div>    
+</body>
+</html>
+

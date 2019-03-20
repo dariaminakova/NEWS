@@ -1,0 +1,10 @@
+.contentBox{
+    width: 100%;
+    padding-left: 30%;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(217, 233, 225);
+    color: rgb(10, 54, 40);
+}
